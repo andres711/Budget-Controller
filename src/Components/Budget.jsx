@@ -40,7 +40,7 @@ function Budget({ addBudget, setInitBudget }) {
         {error ? <Error error={error}/> : null}
         <input
           type={"submit"}
-          className="button primary u-full-width"
+          className="button button-primary u-full-width"
           value="Add your budget"
         />
       </form>
