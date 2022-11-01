@@ -2,7 +2,7 @@ import React, { Fragment, useState } from "react";
 import Budget from "./Components/Budget";
 import FormExpenses from "./Components/FormExpenses";
 import ListExpenses from "./Components/ListExpenses";
-import Advice from "./Components/Advice";
+import UpdateData from "./Components/UpdateData";
 
 function App() {
   const [budget, saveBudget] = useState(0);
@@ -44,13 +44,14 @@ function App() {
 
                 <button 
                 onClick={newBudget}
-                className="button primary u-full-width">
+                className="button button-primary u-full-width">
                   New Budget
                 </button>
               </div>
 
               <div className="six columns">
-                <Advice budget={budget} remain={remain} />
+              <h2>List of expenses</h2>
+                <UpdateData budget={budget} remain={remain} />
                 <ListExpenses expenses={expenses} />
               </div>
             </div>

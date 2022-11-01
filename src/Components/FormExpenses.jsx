@@ -78,7 +78,7 @@ function FormExpenses({ updateData,remain}) {
           :
           null
         }
-        <button className="button primary u-full-width" type="submit">
+        <button className="button button-primary u-full-width" type="submit">
           Create expense
         </button>
       </form>
