@@ -59,6 +59,7 @@ function FormExpenses({ updateData,remain}) {
             type="text"
             onChange={handleChange}
             value={name}
+            placeholder="Example: Food"
           />
         </div>
         <div className="campo">

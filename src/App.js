@@ -31,7 +31,7 @@ function App() {
   return (
     <Fragment>
       <header>
-        <h1>Weekly Expense</h1>
+        <h1>Weekly Budget</h1>
       </header>
       <div className="container">
         <div className="contenido-principal contenido">
